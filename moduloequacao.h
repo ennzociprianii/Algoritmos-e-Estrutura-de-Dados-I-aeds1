@@ -1,0 +1,1 @@
+int equacao(int a, int b, int y);
