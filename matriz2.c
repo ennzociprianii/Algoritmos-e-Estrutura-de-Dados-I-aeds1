@@ -8,16 +8,10 @@ int main ()
   char operacao;
 
   scanf("%d %c", &linha, &operacao);
-
-  for (i = 0; i < 12; i++)
-  {
-
-    for (j = 0; j < 12; j++)
-    {
-
+  for (i = 0; i < 12; i++){
+    for (j = 0; j < 12; j++){
       scanf("%f", &elemento);
       m[i][j] = elemento;
-
     }
   }
 
@@ -26,12 +20,8 @@ int main ()
     i = linha;
     while (i == linha)
     {
-
-      for (j = 0; j < 12; j++)
-      {
-
+      for (j = 0; j < 12; j++){
         soma += m[i][j];
-
       }
 
       i++;
