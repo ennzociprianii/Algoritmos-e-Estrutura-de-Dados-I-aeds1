@@ -1,0 +1,5 @@
+pao 5 1,00
+
+refrigerante 10 8,98
+
+biscoito 6 2,98

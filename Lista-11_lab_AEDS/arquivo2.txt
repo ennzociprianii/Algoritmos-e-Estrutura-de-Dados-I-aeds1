@@ -1,0 +1,35 @@
+1. A resolução da lista de exercícios deverá ser entregue apenas no formato .pdf com o
+nome lista11.pdf. Não serão aceitos outros formatos.
+2. A resolução dos exercícios devem estar ordenadas e legíveis.
+3. Se a lista for realizada no caderno, as fotos deverão estar ordenadas em um único
+arquivo no formato .pdf conforme a instrução 1.
+4. Esta lista vale 8% do total de pontos na disciplina de laboratório de AEDS I e todos
+problemas possuem a mesma pontuação.
+5. Para todos os exercícios que pedem para escrever uma função, além de escrever
+uma função, você deverá implementar o programa completo (com main) que utiliza a
+função e deve mostrar uma imagem da compilação e execução do código em um
+terminal Linux. O mesmo deve acontecer para exercícios que pedem para a criação
+de módulos.
+6. Após a data de entrega, a nota da lista é 0.
+7. Em caso de dúvidas, procurem os monitores. Haverá um monitor após as aulas de
+laboratório para tirar dúvidas sobre a lista.
+Problema 1.
+Faça um programa que receba via main (argv e argc) o nome de um arquivo e imprima na
+tela quantas linhas esse arquivo possui. Por exemplo,
+./programa1 arquivo.txt
+Problema 2.
+Faça um programa que receba via main (argv e argc) o nome de dois arquivos e gere um
+terceiro arquivo, chamado concatenacao.txt, com o conteúdo dos dois primeiros juntos (o
+conteúdo do primeiro arquivo seguido do conteúdo do segundo). Por exemplo,
+./programa2 arquivo1.txt arquivo2.txt
+Problema 3.
+Escreva a função int num_vogais_arquivo(char *nome_arq); que receba como parâmetro o
+nome de um arquivo texto e retorne quantas vogais esse arquivo possui.
+Problema 4.
+Faça um programa que receba via main (argv e argc) o nome de um arquivo contendo uma
+lista de compras. Cada linha do arquivo possui um nome, quantidade e valor unitário do
+produto. O programa então exibe o total da compra.
+Problema 5.
+Faça um programa que leia números positivos e os converta em binário. Cada número
+binário deverá ser salvo em uma linha de um arquivo texto chamado conversao.txt. O
+programa termina quando o usuário digitar um número negativo
